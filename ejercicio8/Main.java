@@ -1,4 +1,4 @@
 package ejercicio8;
 
-public class g {
+public class Main {
 }

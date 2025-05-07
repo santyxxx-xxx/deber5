@@ -1,4 +1,4 @@
 package ejercicio9;
 
-public class h {
+public class Main {
 }
