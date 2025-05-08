@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class iva{
+    +double calcularIVA(double precio)
+}
+
+@enduml

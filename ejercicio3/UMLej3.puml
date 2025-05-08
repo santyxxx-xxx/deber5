@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class saludo{
+    +String saludarUsuario(String nombre)
+    }
+
+@enduml

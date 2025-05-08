@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class Edad{
+    +boolean verificarEdad(int edad)
+}
+
+@enduml
