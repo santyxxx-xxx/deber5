@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class categoriaDeCalificacion {
+    + int calificacion;
+    + categoriaDeCalificacion(int calificacion);
+    + char calcularCategoria()
+}
+
+@enduml
