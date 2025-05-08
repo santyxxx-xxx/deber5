@@ -1,26 +1,36 @@
 package ejercicio8;
 
 public class Bancos {
-    public float monto;
+    // Atributo con modificador de acceso privado
+    private float saldo;
 
-    public Bancos(float monto) {
-        this.monto = monto;
+    // Constructor para inicializar el saldo
+    public Bancos(float saldoInicial) {
+        this.saldo = saldoInicial;
     }
 
-    public void validarDeposito() {
-        if (monto <= 0) {
-            System.out.println("Valor no válido para depósito.");
+    // Metodo para obtener el saldo actual
+    public float getSaldo() {
+        return saldo;
+    }
+
+    // Metodo para depositar dinero
+    public void depositar(float cantidad) {
+        if (cantidad > 0) {
+            saldo += cantidad;
+            System.out.println("Depósito exitoso. Nuevo saldo: $" + saldo);
         } else {
-            System.out.println("Valor válido.\nPuede depositar su dinero: $" + monto);
+            System.out.println("Monto de depósito inválido.");
         }
     }
 
-    public void validarRetiro() {
-        if (monto <= 0) {
-            System.out.println("Valor no válido para retiro.");
+    // MEtodo para retirar dinero
+    public void retirar(float cantidad) {
+        if (cantidad > 0 && cantidad <= saldo) {
+            saldo -= cantidad;
+            System.out.println("Retiro exitoso. Nuevo saldo: $" + saldo);
         } else {
-            System.out.println("Valor válido.\nPuede retirar su dinero: $" + monto);
+            System.out.println("Monto de retiro inválido o saldo insuficiente.");
         }
     }
 }
-
