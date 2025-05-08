@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 +class Juegos{
-    +int puntuacion
+    -int puntuacion
     +Juegos()
     +int puntuacion()
     +void sumarPuntos(int puntos)
