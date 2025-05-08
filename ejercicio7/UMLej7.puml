@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class calcularPrecioConDescuento{
+    +float precio;
+    +float descuento;
+
+    +calcularPrecioConDescuento(float precio, float descuento)
+    +float Descuento(){
+    }
+}
+@enduml
