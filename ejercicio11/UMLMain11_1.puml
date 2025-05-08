@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class Main_App2{
+    +void main(String[] args)
+}
+
+
+@enduml

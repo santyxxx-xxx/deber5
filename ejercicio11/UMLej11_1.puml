@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class Configuracion_App2{
+    -String idioma
+    -boolean notificaciones
+    +Configuracion_App2(String idioma, boolean notificaciones)
+    +String getIdioma()
+    +boolean isNotificaciones()
+    +void cambiarIdioma(String nuevoIdioma)
+    +void activarNotificaciones(boolean estado)
+    +void mostrarConfiguracion()
+}
+@enduml
