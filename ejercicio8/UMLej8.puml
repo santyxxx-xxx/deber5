@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class Bancos{
+    +float monto
+    +Bancos(float monto)
+    +void validarDeposito
+    +void validarRetiro()
+}
+
+@enduml
